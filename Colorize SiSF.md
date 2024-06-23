@@ -3,15 +3,19 @@ You can make your own SiSF highlighter using **SiSFColoring** class. You can cal
 SiSFColoring scolor = new SiSFColoring(EditText edittext, Mode.MODE, Activity activity);
 ```
 Explanation of parameter.
+
 **1. EditText**
+
 You must add your EditText that will be the code highlighter.
 
 **2. Mode**
+
 There are 2 available mode in SiSFColoring. Dark mode, and light mode. To set into dark mode, you can type: `Mode.DARK`. And, to set into light mode, you can type: `Mode.LIGHT`.
 
 To the best experience, you can use `#FFFFFF` in light mode, and `#151924` in dark mode as background color.
 
 **3. Activity**
+
 Type current activity. Like: `MainActivity.this`
 
 Full example:
@@ -26,10 +30,13 @@ To modify or customize color of highlighter, you can use method
 modify(String color, Target.TARGET, Mode.MODE)
 ```
 Explanation of parameter.
+
 **1. String color**
+
 This string contains color that will changing previous color. Like `#4caf50`.
 
 **2. Target**
+
 It contains the target whose color will be changed. All targets are:
 - `Target.NULL` change color of null
 - `Target.COLON` change color of colon
@@ -42,6 +49,7 @@ It contains the target whose color will be changed. All targets are:
 - `Target.QUOTE_UNKEYED` change color of quote mark of unkeyed value
 
 **3. Mode**
+
 If this is LIGHT, then the color changing displayed in light mode. If this is DARK, then the color changing displayed in dark mode.
 - - -
 To reset into default colors, call `reset()` method.
