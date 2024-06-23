@@ -1,4 +1,5 @@
 #Introducing SiSF
+
 **SiSF** or **Simple String Formatted** is a simple but structured String data format. As the name suggests, "Simple String Formatted" means a series of simple *Strings* that have been formatted into an easy-to-read data form. See the following SiSF data snippet.
 ```SiSF
 name: "Willy August"
@@ -26,6 +27,7 @@ SiSF does not use commas (`,`) to separate data, see the following data format a
 To understand, see the following discussion.
 
 **1. Key and Value**
+
 **Key** in SiSF is a set of characters that are the key to getting a **value**. Meanwhile, **value** is a string that contains the contents of a key.
 Formula:
 ```SiSF
@@ -40,6 +42,7 @@ participant: "Frank John"
 ```
 
 **2. Group Key**
+
 **Group Key** is a key that has an array values. Arrays in **group key** can be *null objects*, key:value pairs, or *unkeyed values*.
 Formula:
 ```SiSF
@@ -55,6 +58,7 @@ The `mother` key is a **group key**, and the `age` and `phone` keys are **child 
 A group key cannot contain any more group keys in it. This is because SiSF does not support *nested structures*. Another reason is because SiSF is intended for simple data formatting.
 
 **3. Null Group Key**
+
 **Null Group Key** is a group key that has no content. This type of group is characterized by contents that only contain *null* as for example:
 ```SiSF
 key {
@@ -63,7 +67,9 @@ key {
 ```
 
 **4. Null Object**
+
 **Null Object** indicates that a key or group of keys does not contain anything. Null objects are marked with the code `null`. **Null Object** indicates that a key or group key does not contain anything. Null objects are marked with the code `null`. Example as below.
+
 • Null value in key:
 ```SiSF
 name: null
@@ -77,6 +83,7 @@ data{
 ```
 
 **5. Unkeyed Value**
+
 **Unkeyed value** is a value type that does not have a key. Like:
 ```SiSF
 school {
@@ -87,6 +94,7 @@ school {
 Unkeyed values ​​can only be added to group keys.
 
 **6. Notes**
+
 **Notes** or a note is a character or sentence that you create to indicate data. Like:
 ```SiSF
 #! This is a note !#
@@ -105,6 +113,7 @@ nama: "Agus "
 ```
 ---
 **Converting to SiSF format**
+
 We provide a special library for converting SiSF (Java) format. Download the library in this repository. Once downloaded, install the library in your project and import:
 ```java
 import id.sisf.*;
