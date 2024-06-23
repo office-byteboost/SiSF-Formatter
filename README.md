@@ -1,3 +1,4 @@
+#Introducing SiSF
 **SiSF** or **Simple String Formatted** is a simple but structured String data format. As the name suggests, "Simple String Formatted" means a series of simple *Strings* that have been formatted into an easy-to-read data form. See the following SiSF data snippet.
 ```SiSF
 name: "Willy August"
@@ -249,5 +250,5 @@ phone{
 
 ---
 Other tutorials:
-- Duplicating SiSF ([[Duplicating SiSF]]).
-- Make your SiSF highlighter ([[Colorize SiSF]]).
+- Duplicating SiSF [Click this](https://github.com/office-byteboost/SiSF-Formatter/blob/main/Duplicating%20SiSF.md).
+- Make your SiSF highlighter [Click this](https://github.com/office-byteboost/SiSF-Formatter/blob/main/Colorize%20SiSF.md).
