@@ -4,7 +4,7 @@
 <html>
   <head></head>
   <body>
-    <div style="background:#4caf50">Hello</div>
+    <div style="color:#4caf50">Hello</div>
   </body>
 </html>
 
