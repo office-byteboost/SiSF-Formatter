@@ -34,7 +34,7 @@ Formula:
 key: "value"
 
 NOTE
-Characters that allowed for key is a-z A-Z 0-9 _
+Characters that allowed for key are a-z A-Z 0-9 _
 ```
 A **value** must be surrounded by two quotation marks at the start and end. As an example:
 ```SiSF
