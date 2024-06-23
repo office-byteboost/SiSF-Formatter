@@ -261,3 +261,7 @@ phone{
 Other tutorials:
 - Duplicating SiSF [Click this](https://github.com/office-byteboost/SiSF-Formatter/blob/main/Duplicating%20SiSF.md).
 - Make your SiSF highlighter [Click this](https://github.com/office-byteboost/SiSF-Formatter/blob/main/Colorize%20SiSF.md).
+
+---
+Download libraries:
+[SiSF Libs (Jar)](https://github.com/office-byteboost/SiSF-Formatter/blob/main/SiSF%20JAR/SiSF.jar)
