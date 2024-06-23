@@ -1,4 +1,4 @@
-#Introducing SiSF
+# Introducing SiSF
 
 **SiSF** or **Simple String Formatted** is a simple but structured String data format. As the name suggests, "Simple String Formatted" means a series of simple *Strings* that have been formatted into an easy-to-read data form. See the following SiSF data snippet.
 ```SiSF
