@@ -1,4 +1,3 @@
-**Tutorial #1 - Duplicating SiSF**
 In this tutorial, we will discuss how to duplicate one SiSF to another.
 
 You can use the `getSource()` method to duplicate SiSF data. Pay attention to the following code.
