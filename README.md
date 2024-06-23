@@ -150,7 +150,7 @@ Method `key()` used to get the value from the key. This does not apply to group 
 String motherName = sisf.group("mother/name");
 //motherName will contain "Jennie"
 ```
-Code `ibu/nama` refers to the `name` key in the `mother` key group.
+Code `mother/name` refers to the `name` key in the `mother` key group.
 
 If you want to get the *unkeyed value* in the group key, you can use the code `groupkey/#sequenceUnkeyedValue`. As an example:
 ```java
