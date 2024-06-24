@@ -47,7 +47,7 @@ It contains the target whose color will be changed. All targets are:
 - `Target.VALUE` change color of *value*
 - `Target.UNKEYED_VALUE` change color of *unkeyed value*
 - `Target.NOTES` change color of *notes*
-- `Target.QUOTES` change color of quote mark of value
+- `Target.QUOTE` change color of quote mark of value
 - `Target.QUOTE_UNKEYED` change color of quote mark of unkeyed value
 
 **3. Mode**
