@@ -12,7 +12,9 @@ You must add your EditText that will be the code highlighter.
 
 There are 2 available mode in SiSFColoring. Dark mode, and light mode. To set into dark mode, you can type: `Mode.DARK`. And, to set into light mode, you can type: `Mode.LIGHT`.
 
-To the best experience, you can use `#FFFFFF` in light mode, and `#151924` in dark mode as background color.
+[image](https://github.com/office-byteboost/SiSF-Formatter/blob/main/assets/New%20Project%20394%20%5BA2F388D%5D.png)
+
+To the best experience, you can use `#FFFFFF` in light mode, and `#141924` in dark mode as background color.
 
 **3. Activity**
 
